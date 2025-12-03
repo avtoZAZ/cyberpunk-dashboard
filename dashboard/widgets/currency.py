@@ -3,7 +3,6 @@ from textual.widgets import Static
 from textual.reactive import reactive
 from dashboard.api.currency_api import CurrencyAPI
 from typing import Dict, Any
-import random
 
 
 class CurrencyWidget(Static):

@@ -2,7 +2,6 @@
 from textual.widgets import Static
 from textual.reactive import reactive
 from datetime import datetime
-import platform
 import socket
 import psutil
 

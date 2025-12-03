@@ -1,7 +1,7 @@
 """Main Cyberpunk Dashboard Application"""
 from textual.app import App, ComposeResult
-from textual.containers import Container, Horizontal, Vertical, Grid
-from textual.widgets import Header, Footer, Static
+from textual.containers import Container
+from textual.widgets import Static
 from textual.binding import Binding
 from dashboard.widgets.cpu_monitor import CPUMonitor
 from dashboard.widgets.weather import WeatherWidget

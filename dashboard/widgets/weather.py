@@ -2,7 +2,6 @@
 from textual.widgets import Static
 from textual.reactive import reactive
 from dashboard.api.weather_api import WeatherAPI
-from typing import Optional, Dict, Any
 
 
 class WeatherWidget(Static):
@@ -33,7 +32,6 @@ class WeatherWidget(Static):
         data = self.weather_data
         icon = WeatherAPI.get_weather_icon(data.get("weather_code", "113"))
         temp_c = data.get("temp_c", "N/A")
-        temp_f = data.get("temp_f", "N/A")
         feels_like = data.get("feels_like_c", "N/A")
         condition = data.get("condition", "N/A")
         humidity = data.get("humidity", "N/A")
