@@ -1,0 +1,8 @@
+# Cyberpunk Dashboard Configuration
+# Copy this file to config.yaml and customize
+
+# City for weather display
+city: Kyiv
+
+# You can change this to any city supported by wttr.in
+# Examples: London, NewYork, Tokyo, Berlin, Warsaw
