@@ -6,6 +6,10 @@ A stunning terminal-based dashboard application inspired by cyberpunk movies and
 ![Python](https://img.shields.io/badge/python-3.10+-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-MIT-purple?style=for-the-badge)
 
+## 📸 Preview
+
+![Cyberpunk Dashboard Screenshot](https://github.com/user-attachments/assets/a4e80377-72da-4821-9233-73fd8814e9d5)
+
 ## ✨ Features
 
 ### 🖥️ System Monitor
